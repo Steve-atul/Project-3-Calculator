@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background: #3B4664;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.clc{
+    position: absolute;
+    font-size: 25px;
+    left: 500px;
+    background: #3B4664;
+    color: white;
+    margin-top: 65px;
+}
+.display{
+    width: 536px;
+    height: 124px;
+    background: #181F32;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: right;
+    font-size: 60px;
+    align-items: center;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+.bt{
+    background: #181F32;
+    height: 400px;
+    width: 536px;
+    display: grid;
+    grid-template-areas: 
+    "seven eight nine del"
+    "four five six plus"
+    "one two three minus"
+    "dot1 zero1 slas cross"
+    "reset reset equal equal";
+    padding: 30px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.seven{
+    
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: seven;
+}
+
+.eight{
+    
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: eight;
+}
+
+.nine{
+   
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: nine;
+}
+
+.del{
+    
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: del;
+}
+
+.four{
+    
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: four;
+}
+
+.one{
+    
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: one;
+}
+
+.two{
+   
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: two;
+}
+
+.three{
+    
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: three;
+}
+
+.five{
+    
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: five;
+}
+
+.six{
+   
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: six;
+}
+
+.plus{
+    
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: plus;
+}
+
+.minus{
+    
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: minus;
+}
+
+.dot1{
+   
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: dot1;
+}
+
+.slas{
+   
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: slas;
+}
+
+.zero1{
+    
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: zero1;
+}
+
+.cross{
+   
+    background: #EAE3DB;
+    border-radius: 10px;
+    grid-area: cross;
+}
+
+.equal{
+   
+    background: #D13F30;
+    border-radius: 10px;
+    grid-area: equal;
+}
+
+.reset{
+    
+    background: #647299;
+    border-radius: 10px;
+    grid-area: reset;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
